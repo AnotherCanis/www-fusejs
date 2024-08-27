@@ -10,7 +10,7 @@ on:
 jobs:
   call:
     name: Call workflow
-    uses: Anthrocon/actions-deploy/.github/workflows/deploy.yaml@main
+    uses: AnotherCanis/actions-deploy/.github/workflows/deploy.yaml@main
     with:
       hugo-version: '0.131.0'
       enforce-https: true
